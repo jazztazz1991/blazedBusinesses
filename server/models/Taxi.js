@@ -19,12 +19,16 @@ const taxiSchema = new Schema(
             type: Number,
             required: true,
         },
-        userId: {
-            type: Schema.Types.ObjectId,
-            ref: "User",
-            required: true,
-        },
-        username: {
+        // userId: {
+        //     type: Schema.Types.ObjectId,
+        //     ref: "User",
+        //     required: false,
+        // },
+        // username: {
+        //     type: String,
+        //     required: false,
+        // },
+        driver: {
             type: String,
             required: true,
         },
